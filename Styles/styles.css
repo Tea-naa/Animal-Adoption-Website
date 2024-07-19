@@ -1,0 +1,107 @@
+body::before{
+    display: block;
+    content:'';
+    height:60px;   
+}
+
+.navbar{
+    background-color: #212529;
+    --bs-navbar-color: white;
+    --bs-navbar-hover-color: #ffc107;
+    --bs-navbar-brand-hover-color: white;
+}
+.navbar-brand{
+    color: aqua
+}
+.navbar-toggler{
+    background-color: #ffc107;
+}
+
+#showcase{
+    background-color: #212529; 
+}
+
+#title{
+    font-weight:bold;
+    font-style: italic;
+}
+
+#aboutus{
+    background-color: #212529;
+}
+
+#newsletterLabel{
+    font-weight: bolder;
+}
+
+#h2{
+    color:#ffc107;    
+}
+
+@media(min-width: 768px){
+    .news-input{
+        width:50%;
+    }
+}
+
+.card{
+    background-color: #212529;
+    color: white;
+}
+
+.donate-image{
+    text-align: center;
+}
+
+#questions{
+    background-color: #212529;
+}
+
+.accordion{
+    --bs-accordion-bg: #d3d8dd;
+}
+
+#map{
+   align-items: center; 
+}
+
+#footer{
+    background-color: #212529;
+}
+
+#aboutus2{
+    background-color: #212529;
+}
+
+#title2{
+        font-weight:bold;
+        font-style: italic;
+}
+
+#pets{
+    background-color: #212529;
+}
+
+.name{
+    color: #ffc107;
+    font-style: italic;
+}
+
+#footer2{
+    background-color: #212529;
+    
+}
+
+.socialmedia{
+    color: aqua;
+}
+
+#vol{
+    background-color: aqua;
+}
+
+#embed-map-display{
+    height: 100%;
+    width:100%;
+    max-width:100%;
+}
